@@ -26,13 +26,46 @@
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="{{ site.url }}">首页</a></li>
-            <li class="dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="web" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web技术</a>
-              <div class="dropdown-menu" aria-labelledby="web">
-                <a class="dropdown-item" href="{{ site.url }}/ueo/">用户体验优化</a>
+             <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="lilitu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">黎黎兔蛋糕坊</a>
+              <div class="dropdown-menu" aria-labelledby="lilitu">
+                <a class="dropdown-item" href="{{ site.url }}/lilitu/">黎黎兔蛋糕</a>
+                <a class="dropdown-item" href="{{ site.url }}/lilitu/Strawberry Cake.html">草莓蛋糕</a>
+                <a class="dropdown-item" href="{{ site.url }}/lilitu/Blueberry cake.html">蓝莓蛋糕</a>
+                <a class="dropdown-item" href="{{ site.url }}/lilitu/Schwarzwald cake.html">黑森林蛋糕</a>
               </div>
             </li>
-            <li class="nav-item"><a class="nav-link" href="{{ site.url }}/about/">关于我</a></li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="xq" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">每日心情</a>
+              <div class="dropdown-menu" aria-labelledby="xq">
+                <a class="dropdown-item" href="{{ site.url }}/xq/baicizhan.html">百词斩</a>
+                <a class="dropdown-item" href="{{ site.url }}/xq/">案例分析</a>
+                <a class="dropdown-item" href="{{ site.url }}/xq/">职业与道德</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="travel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">奇妙之旅</a>
+              <div class="dropdown-menu" aria-labelledby="travel">
+                <a class="dropdown-item" href="{{ site.url }}/travel/qinghuiyuan.html">清晖园</a>
+                <a class="dropdown-item" href="{{ site.url }}/travel/xiaoxiong.html">小熊の旅</a>
+                <a class="dropdown-item" href="{{ site.url }}/travel/manzhan.html">萤火虫漫展</a>
+                <a class="dropdown-item" href="{{ site.url }}/travel/">网站安全技术</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="kitchen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">私人厨房</a>
+              <div class="dropdown-menu" aria-labelledby="kitchen">
+                <a class="dropdown-item" href="{{ site.url }}/kitchen/naicha.html">奶茶</a>
+                <a class="dropdown-item" href="{{ site.url }}/kitchen/ximilu.html">西米露</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="my" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于我</a>
+              <div class="dropdown-menu" aria-labelledby="my">
+                <a class="dropdown-item" href="{{ site.url }}/baidu/baidu-seo-guide.html">博主简介</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target=".yewu">联系方式</a></li>
           </ul>
         </div>
       </nav>
@@ -62,6 +95,23 @@
         <button data-dismiss="alert" class="btn btn-default pull-right" type="button">关闭</button>
       </div>
     <![endif]-->
+     <div class="modal fade yewu" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="mySmallModalLabel">联系方式</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <p><i class="fa fa-user fa-fw"></i> 业务咨询：黎黎兔</p>
+            <p><i class="fa fa-phone fa-fw"></i> 联系电话：<a href="tel:136000000">快来给我打电话</a></p>
+            <p><i class="fa fa-qq fa-fw"></i> QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" data-toggle="tooltip" data-placement="top" alt="博主QQ" title="博主QQ">可以QQ扰民</a></p>
+            <p><i class="fa fa-envelope fa-fw"></i> 邮箱：<a target="_blank" href="mailto:1293831866@qq.com">快来给我写邮件</a></p>
+            <p><img class="img-fluid" src="https://chinne24.github.io/images/assets/weixin.jpg" alt="博主微信"></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/assets/jquery-3.2.1.min.js"></script>
     <script src="/assets/popper.min.js"></script>
     <script src="/assets/bootstrap.min.js"></script>
